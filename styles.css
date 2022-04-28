@@ -82,7 +82,7 @@ main{
 
 #eightball p{
     font-size: 1.4rem;
-    margin: -15px 0px 20px -15px; 
+    margin: -10px 0px 10px -6px; 
     padding: 5px;
     color: rgb(255, 255, 255);
     text-shadow: 1px 20px 30px rgb(0, 0, 0);
@@ -118,6 +118,13 @@ main{
       margin: 4rem 2px 2px 0;
       padding: 1rem 0;
   }
+
+  
+  @media screen (width: 325px){
+    #eightball p{
+      margin: 0px 0px 20px -15px; 
+    }
+}
 
 
 

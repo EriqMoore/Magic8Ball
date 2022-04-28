@@ -3,9 +3,9 @@ function eightBallGame(){
 
     let userQuestion = document.getElementById("userQuestion")
     if (!userQuestion.checkValidity()){
-      document.getElementById("demo").innerHTML = "Ask a question first";
+      document.getElementById("obstacle").innerHTML = "Ask a question first";
     }else{
-      document.getElementById("demo").innerHTML = `${userQuestion.value}`;
+      document.getElementById("obstacle").innerHTML = `${userQuestion.value}`;
     let randomNumber = Math.floor(Math.random() * 8);
     let eightBall = document.getElementById("answer")
     switch (randomNumber) {

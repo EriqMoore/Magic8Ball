@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="theme-color" content="#ffffff">
+    <title>Magic Eight Ball Game</title>
+</head>
+<body>
+
+    <header>
+        <div id="title">
+        <h1>Magic 8 Ball </h1>
+        <h2>Ask me what you want to know, then click the Ask Question button.</h2>
+        </div>
+    </header>
+    <main>
+        <form name="question-form" id="question-form"  action="" onsubmit="validateForm()">
+            <label id="userQuestion-label" for="userQuestion">What is your Question?</label>
+            <input type="text" id="userQuestion" name="userQuestion"  placeholder="Ask away" required>
+        </form>
+        <div id="question">
+        <p id="demo"></p>
+        </div>
+        <div id="btn-container">
+        <button id="ask-button" onclick="eightBallGame()">Ask Question</button>
+        </div>
+        <section id="eightball">
+            <p id="answer" class="animated pulse"></p>
+        </section>
+    </main>
+
+    <footer>Created By Eriq Moore</footer>
+</body>
+<script src="validate.js"></script>
+<script src="app.js"></script>
+
+</html>

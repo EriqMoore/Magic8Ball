@@ -89,6 +89,7 @@ main{
     border-color: rgb(161, 161, 255);
     width: 7rem;
     height: 7rem;
+    padding-top:20px ;
     border-width: 3px;
     border-style: solid;
     background-color: blue;
@@ -120,18 +121,14 @@ main{
   }
 
   
-  @media screen and (max-width: 325px){
+  @media screen and (max-width: 1024px){
 
     #eightball p{
-      margin: -12px 0px 20px -10px; 
+      margin: -12px 0px 20px 0px; 
     }
 }
 
-@media screen and (max-width: 326px){
-    #eightball p{
-        margin: -12px 0px 20px -9px; 
-      }
-}
+
 
 
 

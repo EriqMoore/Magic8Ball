@@ -8,6 +8,7 @@ function eightBallGame(){
       document.getElementById("obstacle").innerHTML = `${userQuestion.value}`;
     let randomNumber = Math.floor(Math.random() * 8);
     let eightBall = document.getElementById("answer")
+    answer.style.background.red
     switch (randomNumber) {
   case 0:
     eightBall = 'It is certain';

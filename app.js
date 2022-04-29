@@ -6,9 +6,10 @@ function eightBallGame(){
       document.getElementById("obstacle").innerHTML = "Ask a question first";
     }else{
       document.getElementById("obstacle").innerHTML = `${userQuestion.value}`;
-    let randomNumber = Math.floor(Math.random() * 8);
+    let randomNumber = Math.floor(Math.random() * 7);
     let eightBall = document.getElementById("answer")
-    answer.style.background.red
+    
+    
     switch (randomNumber) {
   case 0:
     eightBall = 'It is certain';
@@ -19,26 +20,22 @@ function eightBallGame(){
     document.getElementById("answer").innerHTML = eightBall;
   break;
   case 2:
-    eightBall = 'Reply hazy try again';
-    document.getElementById("answer").innerHTML = eightBall;
-    break;
-  case 3:
     eightBall = 'Cannot predict now';
     document.getElementById("answer").innerHTML = eightBall;
     break;
-  case 4:
+  case 3:
     eightBall = 'Do not count on it';
     document.getElementById("answer").innerHTML = eightBall;
     break;
-  case 5:
+  case 4:
     eightBall = 'My sources say no';
     document.getElementById("answer").innerHTML = eightBall;
     break;
-  case 6:
+  case 5:
     eightBall = 'Outlook not so good';
     document.getElementById("answer").innerHTML = eightBall;
     break;
-  case 7:
+  case 6:
     eightBall = 'Signs point to yes';
     document.getElementById("answer").innerHTML = eightBall;
     break;
@@ -47,9 +44,18 @@ function eightBallGame(){
   document.getElementById("answer").innerHTML = "Invalid";
    
     }
+    
 
 }
+
 }
+
+function clearFields (){
+  document.getElementById("userQuestion").value = "";
+ 
+}
+
+
 
 
 

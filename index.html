@@ -19,13 +19,13 @@
     <main>
         <form name="question-form" id="question-form"  action="" onsubmit="validateForm()">
             <label id="userQuestion-label" for="userQuestion">What is your Question?</label>
-            <input type="text" id="userQuestion" name="userQuestion"  placeholder="Ask away" required>
+            <input type="text" class="useQu" id="userQuestion" name="userQuestion"  placeholder="Ask away" required>
         </form>
         <div id="question">
         <p id="obstacle"></p>
         </div>
         <div id="btn-container">
-        <button id="ask-button" onclick="eightBallGame()">Ask Question</button>
+        <button id="ask-button" onclick="eightBallGame(), clearFields()">Ask Question</button>
         </div>
         
         <section id="eightball">

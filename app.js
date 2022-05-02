@@ -1,7 +1,3 @@
-
-
-
-
 function eightBallGame(){
 
     let userQuestion = document.getElementById("userQuestion")

@@ -1,15 +1,17 @@
 
+
+
+
 function eightBallGame(){
 
     let userQuestion = document.getElementById("userQuestion")
     if (!userQuestion.checkValidity()){
       document.getElementById("obstacle").innerHTML = "Ask a question first";
     }else{
-      document.getElementById("obstacle").innerHTML = `${userQuestion.value}`;
+      document.getElementById("obstacle").innerHTML = `${userQuestion.value}?`;
     let randomNumber = Math.floor(Math.random() * 7);
     let eightBall = document.getElementById("answer")
-    
-    
+  
     switch (randomNumber) {
   case 0:
     eightBall = 'It is certain';
@@ -44,6 +46,8 @@ function eightBallGame(){
   document.getElementById("answer").innerHTML = "Invalid";
    
     }
+
+  
     
 
 }
@@ -54,6 +58,8 @@ function clearFields (){
   document.getElementById("userQuestion").value = "";
  
 }
+
+
 
 
 

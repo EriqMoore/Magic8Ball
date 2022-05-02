@@ -1,10 +1,10 @@
 function eightBallGame(){
-
-    let userQuestion = document.getElementById("userQuestion")
+    let obstacle = document.getElementById("obstacle");
+    let userQuestion = document.getElementById("userQuestion");
     if (!userQuestion.checkValidity()){
-      document.getElementById("obstacle").innerHTML = "Ask a question first";
+      obstacle.innerHTML = "Ask a question first";
     }else{
-      document.getElementById("obstacle").innerHTML = `${userQuestion.value}?`;
+      obstacle.innerHTML = `${userQuestion.value}?`;
     let randomNumber = Math.floor(Math.random() * 7);
     let eightBall = document.getElementById("answer")
   

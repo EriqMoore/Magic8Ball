@@ -130,6 +130,12 @@ main{
    
    
 }
+footer a{
+    font-size: 3rem;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
 
 
 .animated {

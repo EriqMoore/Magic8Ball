@@ -130,11 +130,14 @@ main{
    
    
 }
-footer a{
+#github a{
     font-size: 3rem;
     color: white;
     font-weight: 500;
     text-decoration: none;
+}
+#github a:hover{
+    color: gray;
 }
 
 

@@ -1,6 +1,7 @@
 # Magic 8 Ball
 
 This is a Magic Eight Ball Game I created, using HTML, CSS, and JavaScript.
+Ask a question, your question will then be shown above the eight ball and the eight ball will give you an answer.
 
 # Reason For Building
 

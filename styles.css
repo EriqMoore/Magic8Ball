@@ -127,7 +127,7 @@ main{
     border-color: rgb(161, 161, 255);
     width: 8rem;
     height: 7rem;
-    padding-top:15px ;
+    padding-top:10px ;
     border-width: 3px;
     border-style: solid;
     background-color: blue;
@@ -182,7 +182,7 @@ main{
       margin-top:5px;
     }
     #blue-ball{
-        padding-top:20px ;
+        padding-top:21px ;
         border-width: 3px;
         margin-top: -10px;
         margin-left: -5px;

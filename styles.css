@@ -175,8 +175,9 @@ main{
         margin-left: -22px;
     }
     #obstacle{
-        margin-right: 10rem;
-        margin-left: 10rem;
+       width: 20rem;
+       margin-left: auto;
+       margin-right: auto;
         text-align: center;
         
     }

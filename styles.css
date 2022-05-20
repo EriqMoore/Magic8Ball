@@ -114,8 +114,8 @@ main{
 }
 
 #eightball p{
-    font-size: 1.4rem;
-    margin: 12px 10px 10px 10px; 
+    font-size: 1rem;
+    margin: 12px 25px 20px 20px; 
     padding: 5px;
     color: rgb(255, 255, 255);
     text-shadow: 1px 20px 30px rgb(0, 0, 0);
@@ -123,15 +123,16 @@ main{
    
    
 }
-#blue-ball{
-    border-color: rgb(161, 161, 255);
-    width: 8rem;
-    height: 7rem;
-    padding-top:10px ;
+#blue-tri{
+    -webkit-clip-path: polygon(46% 100%, 0 0, 100% 0);
+    clip-path: polygon(46% 100%, 0 0, 100% 0);
+    width: 10rem;
+    height: 8rem;
     border-width: 3px;
     border-style: solid;
     background-color: blue;
-    border-radius: 20rem;
+    margin-left: -1rem;
+   
 }
 #github a{
     font-size: 3rem;
@@ -181,11 +182,11 @@ main{
     #eightball p{
       margin-top:5px;
     }
-    #blue-ball{
+    #blue-tri{
         padding-top:20px ;
         border-width: 3px;
         margin-top: -12px;
-        margin-left: -3.5px;
+        margin-left: -12px;
     }
 
     #eightball{

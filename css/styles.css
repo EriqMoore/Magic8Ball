@@ -17,7 +17,7 @@ header{
    
     
 }
-#title{
+.title{
     color: white;
     font-size: 3rem;
     
@@ -29,7 +29,7 @@ main{
     justify-content: center;
     align-items: center;
 }
-#question-form{
+.question-form{
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -54,9 +54,12 @@ main{
 }
 #obstacle{
     margin:8px;
+    color: white;
+    padding-bottom: 1rem;
+    font-size: 2rem;
     
 }
-#btn-container{
+.btn-container{
     padding: 0;
     margin: 0;
 
@@ -78,7 +81,7 @@ main{
     border-color: gray;
 
 }
-#userQuestion-label{
+.userQuestion-label{
     font-size: 2rem ;
     text-align: center;
     text-transform: capitalize;
@@ -93,12 +96,7 @@ main{
     margin-bottom: 1rem;
     
 }
-#obstacle{
-    color: white;
-    padding-bottom: 1rem;
-    font-size: 2rem;
 
-}
 #eightball{
     text-align: center;
     margin-top: 2rem;

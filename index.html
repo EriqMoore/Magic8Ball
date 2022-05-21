@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-8SJ8XFPGLJ"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
@@ -18,19 +18,19 @@
 <body>
 
     <header>
-        <div id="title">
+        <div class="title">
         <h1>Magic 8 Ball </h1>
         </div>
     </header>
     <main>
-        <form name="question-form" id="question-form"  action="" onsubmit="validateForm()">
-            <label id="userQuestion-label" for="userQuestion">What is your Question?</label>
+        <form name="question-form" class="question-form"  action="" onsubmit="validateForm()">
+            <label class="userQuestion-label" for="userQuestion">What is your Question?</label>
             <input type="text" class="useQu" id="userQuestion" name="userQuestion"  placeholder="Ask me what you want to know!" required>
         </form>
-        <div id="question">
+        <div class="question">
         <p id="obstacle"></p>
         </div>
-        <div id="btn-container">
+        <div class="btn-container">
         <button id="ask-button" onclick="eightBallGame(), clearFields()">Ask Question</button>
         </div>
         
@@ -49,7 +49,7 @@
         </div>
     </footer>
 </body>
-<script src="validate.js"></script>
-<script src="app.js"></script>
+<script src="/javascript/app.js"></script>
+
 
 </html>

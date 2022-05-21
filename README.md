@@ -10,7 +10,7 @@ This was my first project where I implemented JavaScript, I made it to see what 
 # Project Challenges
 
 This project had challenges I haven't fully overcame just yet for example, the circle in the middle of the eight ball on mobile is sometimes centered and sometimes not, 
-I will fix as I progress of course, and the design was also tricky, never the less it is still functional, updates will be coming.
+so to make it easier and loyal to the look of a magic eight ball, I made it a triangle, and the design was also tricky, never the less it is still functional, updates will be coming.
 
 # Live Link
 
